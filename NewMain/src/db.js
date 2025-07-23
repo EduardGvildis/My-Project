@@ -1,6 +1,4 @@
-package org.example.hvildismain.Back.Dto.db;
 
-public class js {
     const mongoose = require('mongoose');
 
     const connectDB = async () => {
@@ -14,4 +12,3 @@ public class js {
     };
 
     module.exports = connectDB;
-}
